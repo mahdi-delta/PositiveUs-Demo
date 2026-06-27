@@ -1,12 +1,43 @@
-# React + Vite
+# Positivus - Digital Marketing Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for a digital marketing agency built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** 19.1.1
+- **Vite** 7.1.2
+- **Tailwind CSS** 4.1.12
+- **Framer Motion** 12.40.0 (scroll animations)
+- **React Router DOM** 7.8.1
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hero section with navigation bar
+- Services showcase (6 cards)
+- Case studies with real results
+- Working process accordion (6 steps)
+- Team member profiles
+- Client testimonials carousel
+- Contact form
+- Fully responsive design
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── Components/       # Reusable UI components
+├── Pages/
+│   ├── Main/         # Main page
+│   └── Sections/     # Page sections
+├── Hooks/            # Custom React hooks
+├── Constants/        # Static data
+└── assets/           # SVGs and images
+```
