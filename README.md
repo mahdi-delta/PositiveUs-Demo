@@ -26,6 +26,12 @@ A modern, responsive landing page for a digital marketing agency built with Reac
 ```bash
 npm install
 npm run dev
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
@@ -41,3 +47,7 @@ src/
 ├── Constants/        # Static data
 └── assets/           # SVGs and images
 ```
+
+## Credits
+
+Design by [Original Designer] on [Figma Community](https://www.figma.com/design/PNDdHd9IOQ7tXNuR42xUzl/Positivus-Landing-Page-Design--Community-).
