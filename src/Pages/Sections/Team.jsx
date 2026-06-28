@@ -5,7 +5,7 @@ import SvgLinkedin from "../../assets/Svgs/Images/Team/SvgLinkedin";
 
 const Team = () => {
      return (
-          <section className="flex flex-col gap-fix">
+           <section id="team" className="flex flex-col gap-fix scroll-mt-20">
                <SectionHeader
                     title="Team"
                     textOne="Meet the skilled and experienced team behind our"

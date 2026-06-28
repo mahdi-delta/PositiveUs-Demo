@@ -12,11 +12,11 @@ const Footer = () => {
                     <SvgHeroSectionLogo fill="white" />
                     <div>
                         <ul className="flex gap-3 text-md text-white underline justify-center max-md:flex-wrap">
-                            <li>About Us</li>
-                            <li>Services</li>
-                            <li>Use Cases</li>
-                            <li>Pricing</li>
-                            <li>Blog</li>
+                            <li><a onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }}>Services</a></li>
+                            <li><a onClick={(e) => { e.preventDefault(); document.getElementById('case-studies')?.scrollIntoView({ behavior: 'smooth' }); }}>Use Cases</a></li>
+                            <li><a onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>Pricing</a></li>
+                            <li><a onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>Blog</a></li>
+                            <li><a onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>Contact</a></li>
                         </ul>
                     </div>
                     <div className="flex gap-4">

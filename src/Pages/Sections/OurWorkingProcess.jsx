@@ -7,7 +7,7 @@ const OurWorkingProcess = () => {
      const [Active, setActive] = useState(0);
 
      return (
-          <section className="flex flex-col gap-fix">
+           <section id="working-process" className="flex flex-col gap-fix scroll-mt-20">
                <SectionHeader
                     title="Our Working Progress"
                     textOne="Step-by-Step Guide to Achieving"

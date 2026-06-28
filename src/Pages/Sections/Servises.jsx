@@ -5,7 +5,7 @@ import SvgMaking from "../../assets/Svgs/Images/Servises/SvgMaking";
 
 const Servises = () => {
      return (
-          <section className="flex flex-col gap-fix">
+           <section id="services" className="flex flex-col gap-fix scroll-mt-20">
                <SectionHeader
                     title="Servises"
                     textOne="At our digital marketing agency, we offer a range of services to"

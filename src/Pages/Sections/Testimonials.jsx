@@ -59,7 +59,7 @@ const Testimonials = () => {
     };
 
     return (
-        <section className="flex flex-col gap-fix">
+        <section id="testimonials" className="flex flex-col gap-fix scroll-mt-20">
             <SectionHeader
                 title="Testimonials"
                 textOne="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about"

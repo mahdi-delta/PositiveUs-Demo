@@ -11,25 +11,25 @@ import SvgCompany6 from "../../assets/Svgs/Images/Company/SvgCompany6.jsx";
 
 const HeroSection = () => {
      return (
-          <section className="max-w-full flex flex-col gap-fix ">
-               <header className="w-full bg-white py-3 px-[100px] flex flex-row justify-between items-center fixed left-0 top-0 z-100 max-md:justify-center">
-                    <div id="icon">
-                         <SvgHeroSectionLogo />
-                    </div>
-                    <div id="Pages" className="flex justify-between items-center gap-8 max-mid:hidden">
-                         <ul
-                              id="items"
-                              className="flex justify-center items-center gap-8 text-dark"
-                         >
-                              <li className="hover:text-gray-400 cursor-pointer transition-all duration-300">About Us</li>
-                              <li className="hover:text-gray-400 cursor-pointer transition-all duration-300">Servises</li>
-                              <li className="hover:text-gray-400 cursor-pointer transition-all duration-300">Use Casses</li>
-                              <li className="hover:text-gray-400 cursor-pointer transition-all duration-300">Pricing</li>
-                              <li className="hover:text-gray-400 cursor-pointer transition-all duration-300">Blog</li>
-                         </ul>
-                         <Button bg="#ffffff" text="Book a consultation"/>
-                    </div>
-               </header>
+           <section id="hero" className="max-w-full flex flex-col gap-fix ">
+                <header className="w-full bg-white py-3 px-[100px] flex flex-row justify-between items-center fixed left-0 top-0 z-100 max-md:justify-center">
+                     <div id="icon">
+                          <SvgHeroSectionLogo />
+                     </div>
+                     <div id="Pages" className="flex justify-between items-center gap-8 max-mid:hidden">
+                          <ul
+                               id="items"
+                               className="flex justify-center items-center gap-8 text-dark"
+                          >
+                               <li><a onClick={(e) => { e.preventDefault(); document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' }); }} className="hover:text-gray-400 cursor-pointer transition-all duration-300">About Us</a></li>
+                               <li><a onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }} className="hover:text-gray-400 cursor-pointer transition-all duration-300">Servises</a></li>
+                               <li><a onClick={(e) => { e.preventDefault(); document.getElementById('case-studies')?.scrollIntoView({ behavior: 'smooth' }); }} className="hover:text-gray-400 cursor-pointer transition-all duration-300">Use Casses</a></li>
+                               <li><a onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }} className="hover:text-gray-400 cursor-pointer transition-all duration-300">Pricing</a></li>
+                               <li><a onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }} className="hover:text-gray-400 cursor-pointer transition-all duration-300">Blog</a></li>
+                          </ul>
+                          <Button bg="#ffffff" text="Book a consultation"/>
+                     </div>
+                </header>
 
                <main className="flex justify-between items-center gap-fix mt-25 max-md:flex-col">
                     <div id="text-holder" className="flex-1/2 flex items-start flex-col gap-fix/2 max-md:items-center max-md:text-center">

@@ -3,7 +3,7 @@ import SectionHeader from "../../Components/SectionHeader";
 
 const CaseStudies = () => {
      return (
-          <section className="flex flex-col gap-fix">
+           <section id="case-studies" className="flex flex-col gap-fix scroll-mt-20">
                <SectionHeader
                     title="Case Studio"
                     textOne="Explore Real-Life Examples of Our Proven Digital Marketing"

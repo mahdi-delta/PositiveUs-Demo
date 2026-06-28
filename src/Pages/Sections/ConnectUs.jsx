@@ -8,7 +8,7 @@ const ConnectUs = () => {
      const [ActiveCheck, setActiveCheck] = useState(0);
 
      return (
-          <section className=" flex flex-col gap-fix">
+           <section id="contact" className=" flex flex-col gap-fix scroll-mt-20">
                <SectionHeader
                     title="Contact Us"
                     textOne="Connect with Us: "
