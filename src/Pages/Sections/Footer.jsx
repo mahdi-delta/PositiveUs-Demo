@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                </div>
                <div className="w-full border-t-1 border-white flex justify-between items-center text-white pt-5 font-light  text-sm max-sm:flex-col">
-                    <h1>2024 Positivus - Made With <a className="underline">Astro</a> by <a className="underline">Manul</a></h1>
+                    <h1>2026 Positivus - Made by <a className="underline">Mahdi-Delta</a></h1>
                     <h1>Credits ( <a className="underline">Olga</a>, <a className="underline">Esteban</a>) & <a className="underline">Licence</a></h1>
                </div>
           </footer>
